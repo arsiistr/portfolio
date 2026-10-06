@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>arsiistr</title>
+<meta name="description" content="Портфолио моушн-дизайнера: анимация, 3D, брендинг в движении.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Custom cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-outline"></div>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader-count" id="preloaderCount">0</div>
+</div>
+
+<!-- Header -->
+<header class="header">
+  <a href="#top" class="logo">arsiistr<span class="dot">.</span>mov</a>
+  <nav class="nav" id="nav">
+    <a href="#work" class="nav-link">Работы</a>
+    <a href="#about" class="nav-link">Обо мне</a>
+    <a href="#skills" class="nav-link">Навыки</a>
+    <a href="#contact" class="nav-link">Контакты</a>
+  </nav>
+  <a href="#contact" class="header-cta">Обсудить проект</a>
+  <button class="burger" id="burger" aria-label="Меню">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="noise"></div>
+  </div>
+  <div class="hero-inner">
+    <p class="hero-tag reveal-up">Motion Designer · 3D · Brand Animation</p>
+    <h1 class="hero-title">
+      <span class="line"><span class="reveal-up">АРСЕНИЙ</span></span>
+      <span class="line"><span class="reveal-up">РЕПИН</span></span>
+    </h1>
+    <p class="hero-sub reveal-up">Оживляю бренды: от лого-стингеров и рилсов<br class="br-desktop"> до полноценных 3D-роликов и анимации интерфейсов.</p>
+    <div class="hero-actions reveal-up">
+      <a href="#work" class="btn btn-primary">
+        <span>Смотреть работы</span>
+      </a>
+      <a href="#contact" class="btn btn-ghost">Написать</a>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <span>Скролить</span>
+    <div class="scroll-line"><i></i></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stat">
+    <span class="stat-num" data-count="5">0</span><span class="stat-plus">+</span>
+    <p>лет в моушн-дизайне</p>
+  </div>
+  <div class="stat">
+    <span class="stat-num" data-count="120">0</span><span class="stat-plus">+</span>
+    <p>реализованных проектов</p>
+  </div>
+  <div class="stat">
+    <span class="stat-num" data-count="40">0</span><span class="stat-plus">М</span>
+    <p>суммарных просмотров</p>
+  </div>
+  <div class="stat">
+    <span class="stat-num" data-count="30">0</span><span class="stat-plus">+</span>
+    <p>довольных клиентов и брендов</p>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work">
+  <div class="section-head">
+    <h2 class="section-title reveal-up">Избранные <span class="italic">проекты</span></h2>
+    <p class="section-desc reveal-up">Наведи курсор на карточку, чтобы посмотреть превью в движении.</p>
+  </div>
+
+  <div class="work-grid" id="workGrid">
+    <!-- Cards injected via JS from data, see js/main.js -->
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="about-media reveal-up">
+    <img class="about-photo" src="images/about.jpg" alt="Арсений Репин">
+    <div class="about-frame"></div>
+  </div>
+  <div class="about-text">
+    <h2 class="section-title reveal-up">Обо <span class="italic">мне</span></h2>
+    <p class="about-p reveal-up">
+      Привет! Я моушн-дизайнер с опытом работы над проектами для стриминговых
+      сервисов, стартапов и медиа-брендов. Совмещаю чувство ритма и драматургии
+      с точной 2D и 3D-графикой — так, чтобы анимация не просто украшала, а рассказывала историю.
+    </p>
+    <p class="about-p reveal-up">
+      Работаю на удалёнке с командами и агентствами по всему миру: от быстрых
+      рилсов и анимаций интерфейсов до полного цикла продакшена рекламных роликов.
+    </p>
+    <a href="#" class="btn btn-ghost reveal-up">Скачать CV / Reel</a>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <h2 class="section-title reveal-up center">Инструменты <span class="italic">и навыки</span></h2>
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>After Effects</span><span>Kling</span><span>Blender</span><span>Nuke</span>
+      <span>AI</span><span>Premiere Pro</span><span>Figma</span><span>ComfyUI</span>
+      <span>Cavalry</span>
+      <span>After Effects</span><span>Kling</span><span>Blender</span><span>Nuke</span>
+      <span>AI</span><span>Premiere Pro</span><span>Figma</span><span>ComfyUI</span>
+      <span>Cavalry</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<footer class="contact" id="contact">
+  <h2 class="contact-title reveal-up">Есть проект? <br><span class="italic">Давай его оживим.</span></h2>
+  <a href="mailto:hello@arsiistr.ru" class="contact-email reveal-up">hello@arsiistr.ru</a>
+  <div class="contact-socials reveal-up">
+  <a href="https://t.me/arsiiistr" target="_blank" rel="noopener noreferrer">Telegram</a>
+  <a href="https://www.behance.net" target="_blank" rel="noopener noreferrer">Behance</a>
+  <a href="https://www.instagram.com/arsiistr/" target="_blank" rel="noopener noreferrer">Instagram</a>
+  <a href="https://vimeo.com/user107472011" target="_blank" rel="noopener noreferrer">Vimeo</a>
+</div>
+  <div class="footer-bottom">
+    <span>© 2026 Арсений Репин</span>
+    <span>Сделано с ♥ к After Effects</span>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose">×</button>
+  <video class="lightbox-video" id="lightboxVideo" controls playsinline></video>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
