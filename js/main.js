@@ -17,28 +17,28 @@ const projects = [
     video: "videos/Shtab_full-compressed.mp4"
   },
   {
-    name: "Sonar Fest — афиша в движении",
-    client: "Sonar Festival",
-    year: "2025",
-    tags: ["2D", "Титры"],
-    poster: "https://img.magnific.com/premium-psd/autumnal-landscape-with-mountain-reflection-still-lake_713655-42730.jpg?semt=ais_hybrid&w=740&q=80",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+    name: "Forma: моушн‑дизайн и 3D‑визуализация",
+    client: "Forma",
+    year: "2026",
+    tags: ["3D", "Логотип"],
+    poster: "images/FORMA_Master (0-00-09-21).png",
+    video: "videos/FORMA_Master.mp4"
   },
   {
     name: "Vladcon GO - экраны на Экспофоруме",
     client: "Vladcon",
     year: "2026",
-    tags: ["3D", "Лого"],
+    tags: ["3D", "Брендинг"],
     poster: "images/Vladkon_600x450_3_02.09 (00000).png",
     video: "videos/VLADCON_GO_05-compressed.mp4"
   },
   {
-    name: "Wrapped — итоги года",
-    client: "MusicHub",
-    year: "2024",
-    tags: ["2D", "Data-viz"],
-    poster: "https://img.magnific.com/free-photo/vibrant-colored-palm-tree-backdrop-summer-generated-by-ai_188544-15072.jpg?semt=ais_hybrid",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+    name: "Vladcon Go - зацикленный экран для стенда",
+    client: "Vladcon",
+    year: "2026",
+    tags: ["2D", "Digital-билборд"],
+    poster: "images/photo_2026-09-18_14-08-22.jpg",
+    video: "videos/11Comp 1_07.10-compressed.mp4"
   },
   {
     name: "Aurora — рекламный ролик",
