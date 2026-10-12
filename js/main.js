@@ -17,15 +17,15 @@ const projects = [
     video: "videos/Shtab_full-compressed.mp4"
   },
   {
-    name: "Forma: моушн‑дизайн и 3D‑визуализация",
+    name: "Имидж бренда",
     client: "Forma",
     year: "2026",
     tags: ["3D", "Логотип"],
     poster: "images/FORMA_Master (0-00-09-21).png",
-    video: "videos/FORMA_Master.mp4"
+    video: "videos/FORMA_Master_1.mp4"
   },
   {
-    name: "Vladcon GO - экраны на Экспофоруме",
+    name: "Экраны для Экспофорума",
     client: "Vladcon",
     year: "2026",
     tags: ["3D", "Брендинг"],
@@ -33,7 +33,7 @@ const projects = [
     video: "videos/VLADCON_GO_05-compressed.mp4"
   },
   {
-    name: "Vladcon Go - зацикленный экран для стенда",
+    name: "Зацикленный экран для стенда",
     client: "Vladcon",
     year: "2026",
     tags: ["2D", "Digital-билборд"],
@@ -41,12 +41,12 @@ const projects = [
     video: "videos/11Comp 1_07.10-compressed.mp4"
   },
   {
-    name: "Aurora — рекламный ролик",
-    client: "Aurora Cosmetics",
-    year: "2023",
-    tags: ["3D", "Реклама"],
-    poster: "https://img.magnific.com/free-photo/nature-landscape-with-black-sand-beach_23-2151380379.jpg?semt=ais_hybrid&w=740",
-    video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    name: "Рекламный AI ролик",
+    client: "Kitty’s Best",
+    year: "2024",
+    tags: ["AI", "Реклама"],
+    poster: "images/Gemini_Generated_Image_hyf2b2hyf2b2hyf2.png",
+    video: "videos/Kittys_Best-compressed.mp4"
   }
 ];
 
